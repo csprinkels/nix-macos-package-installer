@@ -1,3 +1,7 @@
+# Nix Darwin Installer for MacOS
+
+
+
 ### HOW TO USE
 ---
 1. Install NixOS
