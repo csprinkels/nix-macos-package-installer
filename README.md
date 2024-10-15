@@ -1,5 +1,6 @@
 For personal workstation = Make sure name is sprinkel
 <br>For work workstation = Make sure name is christiansprinkel
+<br>If not change user name in flake.nix file to whatever computer name is
 
 1. Install NixOS
 ```
