@@ -1,5 +1,5 @@
 For personal workstation = Make sure name is sprinkel
-For work workstation = Make sure name is christiansprinkel
+<br>For work workstation = Make sure name is christiansprinkel
 
 1. Install NixOS
 ```
