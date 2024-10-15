@@ -104,7 +104,7 @@
             # Apple Silicon Only
             enableRosetta = true;
             # User owning the Homebrew prefix
-            user = "sprinkel";
+            user = "christiansprinkel";
 
             autoMigrate = true;
           };
