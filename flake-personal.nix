@@ -71,7 +71,7 @@
           rm -rf "/Applications/Nix Apps"
           mkdir -p "/Applications/Nix Apps"
           find ${env}/Applications -maxdepth 1 -type l -exec readlink '{}' + |
-          while read src; do
+          while read -r src; do
             if [ -e "$src" ] && [ "$(basename "$src")" != "Itsycal.app" ]; then
               app_name=$(basename "$src")
               echo "copying $src" >&2
