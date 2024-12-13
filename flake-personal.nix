@@ -24,8 +24,8 @@
           pkgs.neovim 
           pkgs.obsidian
           pkgs.spotify
+          pkgs.raycast
           pkgs.vscode
-          pkgs.warp-terminal
         ];
 
       homebrew = {
@@ -35,7 +35,6 @@
         ];
         casks = [
           "adobe-creative-cloud"
-          "alfred"
           "arc"
           "cleanmymac"
           "cleanshot"
@@ -46,8 +45,6 @@
           "itsycal"
           "keka"
           "nordpass"
-          "notion"
-          "rectangle-pro"
         ];
         onActivation.cleanup = "zap";
       };
